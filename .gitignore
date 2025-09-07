@@ -33,6 +33,7 @@ node_modules/
 
 # Yarn cache
 .yarn/cache/
+.yarn/.cache/
 .yarn/unplugged/
 .pnp.*
 .yarn/build-state.yml
