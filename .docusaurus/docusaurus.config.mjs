@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
+  "title": "DrewpyPro",
+  "tagline": "Cybersecurity Architect | AI Enthusiast | ProGamer(not)",
   "favicon": "img/favicon.ico",
   "future": {
     "v4": {
@@ -28,10 +28,10 @@ export default {
     },
     "experimental_router": "browser"
   },
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://drewpypro.github.io",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "drewpypro",
+  "projectName": "drewpypro.github.io",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -46,24 +46,8 @@ export default {
     [
       "classic",
       {
-        "docs": {
-          "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
-        },
-        "blog": {
-          "showReadingTime": true,
-          "feedOptions": {
-            "type": [
-              "rss",
-              "atom"
-            ],
-            "xslt": true
-          },
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-          "onInlineTags": "warn",
-          "onInlineAuthors": "warn",
-          "onUntruncatedBlogPosts": "warn"
-        },
+        "docs": false,
+        "blog": false,
         "theme": {
           "customCss": "./src/css/custom.css"
         }
@@ -71,28 +55,22 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "img/drewpypro_logo.png",
     "navbar": {
-      "title": "My Site",
+      "title": "DrewpyPro",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "alt": "DrewpyPro Logo",
+        "src": "img/drewpypro_logo.svg"
       },
       "items": [
         {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Tutorial"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/drewpypro",
           "label": "GitHub",
+          "position": "right"
+        },
+        {
+          "href": "mailto:github@drewpy.mozmail.com",
+          "label": "Contact",
           "position": "right"
         }
       ],
@@ -102,46 +80,50 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "Connect",
           "items": [
-            {
-              "label": "Tutorial",
-              "to": "/docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "X",
-              "href": "https://x.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/drewpypro"
+            },
+            {
+              "label": "Email",
+              "href": "mailto:github@drewpy.mozmail.com"
+            }
+          ]
+        },
+        {
+          "title": "Expertise",
+          "items": [
+            {
+              "label": "Network Security",
+              "href": "#expertise"
+            },
+            {
+              "label": "Cloud Architecture",
+              "href": "#expertise"
+            },
+            {
+              "label": "AI/ML",
+              "href": "#interests"
+            }
+          ]
+        },
+        {
+          "title": "About",
+          "items": [
+            {
+              "label": "Professional Highlights",
+              "href": "#highlights"
+            },
+            {
+              "label": "Interests",
+              "href": "#interests"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2025 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2025 DrewpyPro. Built with Docusaurus."
     },
     "prism": {
       "theme": {

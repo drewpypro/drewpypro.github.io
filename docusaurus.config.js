@@ -59,12 +59,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/drewpypro_logo.png',
       navbar: {
         title: 'DrewpyPro',
         logo: {
           alt: 'DrewpyPro Logo',
-          src: 'img/logo.svg',
+          src: 'img/drewpypro_logo.svg',
         },
         items: [
           {

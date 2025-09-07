@@ -9,9 +9,9 @@ function HomepageHeader() {
       <div className="container">
         <div className={styles.heroContent}>
           <img src="/img/cat.gif" alt="DrewPnutz" className={styles.profileImage} />
-          <h1 className={styles.heroTitle}>DrewPyPro</h1>
+          <h1 className={styles.heroTitle}>DrewpyProfile</h1>
           <p className={styles.heroSubtitle}>
-            Network Security Architect | Cloud Security Expert | AI Enthusiast
+            | Cloud and Network Security Architect | 10+ Years Financial Security Experience | AI Enthusiast |
           </p>
           <div className={styles.heroButtons}>
             <a href="https://github.com/drewpypro" className={styles.button}>
@@ -34,16 +34,16 @@ function AboutSection() {
         <h2 className={styles.sectionTitle}>About Me</h2>
         <div className={styles.aboutContent}>
           <div className={styles.aboutItem}>
-            <span className={styles.emoji}>🔐</span>
-            <p>Seasoned network security expert with over a decade of experience in enterprise financial environments, now expanding into broader cybersecurity domains</p>
+            <span className={styles.emoji}>🏦</span>
+            <p>Expert Enterprise Network Security Architect with over 10+ years of specialized experience in Fortune 500 financial institution environments, focusing on continuous learning in security technologies that satisfy intellectual curiosity</p>
           </div>
           <div className={styles.aboutItem}>
             <span className={styles.emoji}>☁️</span>
-            <p>Skilled in navigating complex cloud architectures and developing innovative security solutions across multi-cloud environments</p>
+            <p>Designed comprehensive network security strategies for GCP, AWS, and Azure cloud environments, integrating Infrastructure as Code (IaC) using GitHub and Terraform Enterprise for scalable security management</p>
           </div>
           <div className={styles.aboutItem}>
-            <span className={styles.emoji}>🚀</span>
-            <p>Quick learner with a passion for emerging technologies, continuously adapting to the evolving landscape of cybersecurity and cloud computing</p>
+            <span className={styles.emoji}>🤝</span>
+            <p>Committed to contributing to impactful projects within organizations that offer ample opportunities for learning and growth, while collaborating with diverse teams that value mentorship and peer learning</p>
           </div>
         </div>
       </div>
@@ -53,14 +53,14 @@ function AboutSection() {
 
 function ExpertiseSection() {
   const expertiseItems = [
-    { title: 'Network Security Architecture', description: 'Enterprise Public & Private Cloud design and implementation' },
-    { title: 'Multi-Cloud Environments', description: 'AWS, GCP, Azure, Digital Ocean, On-Premise infrastructure' },
-    { title: 'Palo Alto Networks', description: 'Panorama SME with extensive firewall management experience' },
-    { title: 'Migration & Modernization', description: 'Large-scale firewall migration and infrastructure modernization' },
-    { title: 'CI/CD & IaC', description: 'Infrastructure as Code implementation and continuous deployment pipelines' },
-    { title: 'Incident Response', description: 'Threat mitigation and rapid incident response strategies' },
-    { title: 'Security Testing', description: 'Network security control and vulnerability assessment' },
-    { title: 'AI Integration', description: 'Leveraging AI/ML for security automation and application development' },
+    { title: 'Multi-Cloud Security', description: 'AWS GWLB, Security Groups, NACL, IAM Policy, GCP Firewall Plus, Azure Network Security Groups, Oracle Cloud Infrastructure' },
+    { title: 'Network Security', description: 'Palo Alto (PA Series, VM, Panorama, Prisma), Illumio, NSX Distributed Firewall, Cisco ASA (300+ devices managed)' },
+    { title: 'Infrastructure as Code', description: 'Terraform Enterprise, GitHub repositories, Architecture Decision Records (ADRs), cloud security automation' },
+    { title: 'Cloud Architecture', description: 'AWS GWLB Palo Alto solutions, network segmentation, edge security, disaster recovery site implementation' },
+    { title: 'Compliance & Risk', description: 'PCI-DSS auditing, NIST frameworks, vulnerability remediation, risk assessment and mitigation strategies' },
+    { title: 'DevOps & Monitoring', description: 'CI/CD pipelines, ELK Stack, Grafana, Splunk, automated security control deployment' },
+    { title: 'Scripting & Automation', description: 'Python, Bash, PowerShell, HCL, C, Rust for security automation and incident response integration' },
+    { title: 'Enterprise Networking', description: 'Cisco Routers/Switches (1800-9K Series), BGP, ECMP, DirectConnect, VPN technologies, wireless infrastructure' },
   ];
 
   return (
@@ -138,12 +138,12 @@ function InterestsSection() {
 
 function ProfessionalHighlights() {
   const highlights = [
-    'Designed and implemented network security strategies for Fortune 500 financial institutions across multi-cloud environments',
-    'Successfully implemented infrastructure as code for security control management, reducing deployment time by 70%',
-    'Led large-scale firewall migration projects involving 500+ devices with zero downtime',
-    'Architected security policies for complex network environments supporting 10,000+ users',
-    'Excelled in incident response, reducing mean time to resolution by 60% through automation',
-    'Developed custom security tools and scripts that improved threat detection accuracy by 45%',
+    'Led the refresh of over 100 Cisco ASA firewalls to Palo Alto Firewalls at Fortune 500 financial company, managing large-scale deployments with zero downtime',
+    'Architected and deployed AWS GWLB Palo Alto solutions for various connectivity designs, integrating Infrastructure as Code using GitHub and Terraform Enterprise',
+    'Instrumental in creating public cloud service certification process, establishing approved configurations and security guardrails for internal applications',
+    'Broke company records for most service requests completed while providing 24-hour troubleshooting support for global network infrastructure',
+    'Successfully rolled out new Cisco AnyConnect Load-Balanced headends and created comprehensive training guidelines for operational teams',
+    'Designed network security controls for new Disaster Recovery site in Phoenix, ensuring business continuity and compliance requirements',
   ];
 
   return (
@@ -188,6 +188,34 @@ function GoalsSection() {
   );
 }
 
+function CertificationsSection() {
+  const certifications = [
+    { name: 'PCNSE', description: 'Palo Alto Networks Certified Network Security Engineer' },
+    { name: 'PCNSE7', description: 'Palo Alto Networks Certified Network Security Engineer 7' },
+    { name: 'CCNA-Security', description: 'Cisco Certified Network Associate - Security' },
+    { name: 'JNCIS-SA', description: 'Juniper Networks Certified Internet Specialist - SSL VPN' },
+    { name: 'CompTIA Network+', description: 'Computing Technology Industry Association Network+' },
+    { name: 'CompTIA A+', description: 'Computing Technology Industry Association A+' },
+  ];
+
+  return (
+    <section className={`${styles.section} ${styles.sectionAlt}`}>
+      <div className="container">
+        <h2 className={styles.sectionTitle}>Professional Certifications</h2>
+        <div className={styles.certificationsGrid}>
+          {certifications.map((cert, index) => (
+            <div key={index} className={styles.certificationCard}>
+              <div className={styles.certBadge}>🏆</div>
+              <h3>{cert.name}</h3>
+              <p>{cert.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function CollaborationSection() {
   return (
     <section className={styles.section}>
@@ -221,7 +249,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title} - Portfolio`}
-      description="Network Security Architect, Cloud Security Expert, and AI Enthusiast">
+      description="Expert Enterprise Network Security Architect with 10+ years Fortune 500 financial experience. Specialized in multi-cloud security, Infrastructure as Code, and large-scale firewall migrations.">
       <HomepageHeader />
       <main>
         <AboutSection />
@@ -230,6 +258,7 @@ export default function Home() {
         <InterestsSection />
         <ProfessionalHighlights />
         <GoalsSection />
+        <CertificationsSection />
         <CollaborationSection />
       </main>
     </Layout>
