@@ -51,8 +51,10 @@ build/
 
 # instructions
 /code_instructions.md
+/drewpypro_readme.md
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
