@@ -1,59 +1,37 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
+  "/game_assessments/-9c1": {
+    "__comp": "34575c30",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "a7456010"
     },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+    "config": "5e9f5e1a"
   },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
+  "/game_assessments/arc-raiders-11-26-2025-02f": {
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
+      "plugin": "a7456010"
+    },
+    "content": "a4f5aad8"
   },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+  "/game_assessments/insurgency-sandstorm-11-25-2025-763": {
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
+      "plugin": "a7456010"
+    },
+    "content": "598ee5a6"
   },
   "/markdown-page-3d7": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
+      "plugin": "a7456010"
     },
-    "content": "content---markdown-page-393-028"
+    "content": "393be207"
   },
   "/-2e1": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
+      "plugin": "a7456010"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "5e9f5e1a"
   }
 }

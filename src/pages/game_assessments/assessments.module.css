@@ -1,0 +1,66 @@
+.assessmentsList {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.assessmentCard {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.assessmentCard:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.assessmentCard h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+}
+
+.assessmentCard h2 a {
+  color: var(--ifm-heading-color);
+  text-decoration: none;
+}
+
+.assessmentCard h2 a:hover {
+  color: var(--ifm-color-primary);
+}
+
+.assessmentMeta {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.date::before {
+  content: '📅 ';
+}
+
+.score {
+  font-weight: bold;
+  color: var(--ifm-color-primary);
+}
+
+.score::before {
+  content: '⭐ ';
+}
+
+.readMore {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.readMore:hover {
+  text-decoration: underline;
+}
