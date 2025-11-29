@@ -39,6 +39,9 @@ jobs:
       - name: Install dependencies
         run: yarn install --immutable
 
+      - name: Generate assessments index
+        run: node scripts/generate-assessments.js
+
       - name: Build website
         run: yarn build
 
