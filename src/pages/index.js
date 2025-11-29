@@ -17,6 +17,9 @@ function HomepageHeader() {
             <a href="https://github.com/drewpypro" className={styles.button}>
               GitHub Profile
             </a>
+            <a href="/game_assessments/arc-raiders" className={styles.button}>
+              Game Assessments
+            </a>
             <a href="mailto:github@drewpy.mozmail.com" className={styles.buttonSecondary}>
               Contact Me
             </a>

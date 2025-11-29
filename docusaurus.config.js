@@ -100,15 +100,15 @@ const config = {
             items: [
               {
                 label: 'Network Security',
-                href: '#expertise',
+                href: '/#expertise',
               },
               {
                 label: 'Cloud Architecture',
-                href: '#expertise',
+                href: '/#expertise',
               },
               {
                 label: 'AI/ML',
-                href: '#interests',
+                href: '/#interests',
               },
             ],
           },
@@ -117,11 +117,11 @@ const config = {
             items: [
               {
                 label: 'Professional Highlights',
-                href: '#highlights',
+                href: '/#highlights',
               },
               {
                 label: 'Interests',
-                href: '#interests',
+                href: '/#interests',
               },
             ],
           },
